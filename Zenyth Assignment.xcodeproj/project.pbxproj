@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D264F29C1EFA731900868DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264F29B1EFA731900868DBD /* AppDelegate.swift */; };
+		D264F29E1EFA731900868DBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264F29D1EFA731900868DBD /* ViewController.swift */; };
+		D264F2A11EFA731900868DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D264F29F1EFA731900868DBD /* Main.storyboard */; };
+		D264F2A31EFA731900868DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D264F2A21EFA731900868DBD /* Assets.xcassets */; };
+		D264F2A61EFA731900868DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D264F2A41EFA731900868DBD /* LaunchScreen.storyboard */; };
+		D264F2B11EFA731900868DBD /* Zenyth_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264F2B01EFA731900868DBD /* Zenyth_AssignmentTests.swift */; };
+		D264F2BC1EFA731900868DBD /* Zenyth_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264F2BB1EFA731900868DBD /* Zenyth_AssignmentUITests.swift */; };
+		D264F2CA1EFA758B00868DBD /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264F2C91EFA758B00868DBD /* ResultVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D264F2AD1EFA731900868DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D264F2901EFA731900868DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D264F2971EFA731900868DBD;
+			remoteInfo = "Zenyth Assignment";
+		};
+		D264F2B81EFA731900868DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D264F2901EFA731900868DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D264F2971EFA731900868DBD;
+			remoteInfo = "Zenyth Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D264F2981EFA731900868DBD /* Zenyth Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zenyth Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D264F29B1EFA731900868DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D264F29D1EFA731900868DBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D264F2A01EFA731900868DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D264F2A21EFA731900868DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D264F2A51EFA731900868DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D264F2A71EFA731900868DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D264F2AC1EFA731900868DBD /* Zenyth AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zenyth AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D264F2B01EFA731900868DBD /* Zenyth_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zenyth_AssignmentTests.swift; sourceTree = "<group>"; };
+		D264F2B21EFA731900868DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D264F2B71EFA731900868DBD /* Zenyth AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zenyth AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D264F2BB1EFA731900868DBD /* Zenyth_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zenyth_AssignmentUITests.swift; sourceTree = "<group>"; };
+		D264F2BD1EFA731900868DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D264F2C91EFA758B00868DBD /* ResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D264F2951EFA731900868DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D264F2A91EFA731900868DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D264F2B41EFA731900868DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D264F28F1EFA731900868DBD = {
+			isa = PBXGroup;
+			children = (
+				D264F29A1EFA731900868DBD /* Zenyth Assignment */,
+				D264F2AF1EFA731900868DBD /* Zenyth AssignmentTests */,
+				D264F2BA1EFA731900868DBD /* Zenyth AssignmentUITests */,
+				D264F2991EFA731900868DBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D264F2991EFA731900868DBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D264F2981EFA731900868DBD /* Zenyth Assignment.app */,
+				D264F2AC1EFA731900868DBD /* Zenyth AssignmentTests.xctest */,
+				D264F2B71EFA731900868DBD /* Zenyth AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D264F29A1EFA731900868DBD /* Zenyth Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				D264F29B1EFA731900868DBD /* AppDelegate.swift */,
+				D264F29D1EFA731900868DBD /* ViewController.swift */,
+				D264F29F1EFA731900868DBD /* Main.storyboard */,
+				D264F2C91EFA758B00868DBD /* ResultVC.swift */,
+				D264F2A21EFA731900868DBD /* Assets.xcassets */,
+				D264F2A41EFA731900868DBD /* LaunchScreen.storyboard */,
+				D264F2A71EFA731900868DBD /* Info.plist */,
+			);
+			path = "Zenyth Assignment";
+			sourceTree = "<group>";
+		};
+		D264F2AF1EFA731900868DBD /* Zenyth AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				D264F2B01EFA731900868DBD /* Zenyth_AssignmentTests.swift */,
+				D264F2B21EFA731900868DBD /* Info.plist */,
+			);
+			path = "Zenyth AssignmentTests";
+			sourceTree = "<group>";
+		};
+		D264F2BA1EFA731900868DBD /* Zenyth AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D264F2BB1EFA731900868DBD /* Zenyth_AssignmentUITests.swift */,
+				D264F2BD1EFA731900868DBD /* Info.plist */,
+			);
+			path = "Zenyth AssignmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D264F2971EFA731900868DBD /* Zenyth Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D264F2C01EFA731900868DBD /* Build configuration list for PBXNativeTarget "Zenyth Assignment" */;
+			buildPhases = (
+				D264F2941EFA731900868DBD /* Sources */,
+				D264F2951EFA731900868DBD /* Frameworks */,
+				D264F2961EFA731900868DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zenyth Assignment";
+			productName = "Zenyth Assignment";
+			productReference = D264F2981EFA731900868DBD /* Zenyth Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D264F2AB1EFA731900868DBD /* Zenyth AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D264F2C31EFA731900868DBD /* Build configuration list for PBXNativeTarget "Zenyth AssignmentTests" */;
+			buildPhases = (
+				D264F2A81EFA731900868DBD /* Sources */,
+				D264F2A91EFA731900868DBD /* Frameworks */,
+				D264F2AA1EFA731900868DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D264F2AE1EFA731900868DBD /* PBXTargetDependency */,
+			);
+			name = "Zenyth AssignmentTests";
+			productName = "Zenyth AssignmentTests";
+			productReference = D264F2AC1EFA731900868DBD /* Zenyth AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D264F2B61EFA731900868DBD /* Zenyth AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D264F2C61EFA731900868DBD /* Build configuration list for PBXNativeTarget "Zenyth AssignmentUITests" */;
+			buildPhases = (
+				D264F2B31EFA731900868DBD /* Sources */,
+				D264F2B41EFA731900868DBD /* Frameworks */,
+				D264F2B51EFA731900868DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D264F2B91EFA731900868DBD /* PBXTargetDependency */,
+			);
+			name = "Zenyth AssignmentUITests";
+			productName = "Zenyth AssignmentUITests";
+			productReference = D264F2B71EFA731900868DBD /* Zenyth AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D264F2901EFA731900868DBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Emily Heejung Son";
+				TargetAttributes = {
+					D264F2971EFA731900868DBD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D264F2AB1EFA731900868DBD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D264F2971EFA731900868DBD;
+					};
+					D264F2B61EFA731900868DBD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D264F2971EFA731900868DBD;
+					};
+				};
+			};
+			buildConfigurationList = D264F2931EFA731900868DBD /* Build configuration list for PBXProject "Zenyth Assignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D264F28F1EFA731900868DBD;
+			productRefGroup = D264F2991EFA731900868DBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D264F2971EFA731900868DBD /* Zenyth Assignment */,
+				D264F2AB1EFA731900868DBD /* Zenyth AssignmentTests */,
+				D264F2B61EFA731900868DBD /* Zenyth AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D264F2961EFA731900868DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D264F2A61EFA731900868DBD /* LaunchScreen.storyboard in Resources */,
+				D264F2A31EFA731900868DBD /* Assets.xcassets in Resources */,
+				D264F2A11EFA731900868DBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D264F2AA1EFA731900868DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D264F2B51EFA731900868DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D264F2941EFA731900868DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D264F29E1EFA731900868DBD /* ViewController.swift in Sources */,
+				D264F2CA1EFA758B00868DBD /* ResultVC.swift in Sources */,
+				D264F29C1EFA731900868DBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D264F2A81EFA731900868DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D264F2B11EFA731900868DBD /* Zenyth_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D264F2B31EFA731900868DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D264F2BC1EFA731900868DBD /* Zenyth_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D264F2AE1EFA731900868DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D264F2971EFA731900868DBD /* Zenyth Assignment */;
+			targetProxy = D264F2AD1EFA731900868DBD /* PBXContainerItemProxy */;
+		};
+		D264F2B91EFA731900868DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D264F2971EFA731900868DBD /* Zenyth Assignment */;
+			targetProxy = D264F2B81EFA731900868DBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D264F29F1EFA731900868DBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D264F2A01EFA731900868DBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D264F2A41EFA731900868DBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D264F2A51EFA731900868DBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D264F2BE1EFA731900868DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D264F2BF1EFA731900868DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D264F2C11EFA731900868DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zenyth Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.Zenyth-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D264F2C21EFA731900868DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zenyth Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.Zenyth-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D264F2C41EFA731900868DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zenyth AssignmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.Zenyth-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zenyth Assignment.app/Zenyth Assignment";
+			};
+			name = Debug;
+		};
+		D264F2C51EFA731900868DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zenyth AssignmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.Zenyth-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zenyth Assignment.app/Zenyth Assignment";
+			};
+			name = Release;
+		};
+		D264F2C71EFA731900868DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Zenyth AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.Zenyth-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Zenyth Assignment";
+			};
+			name = Debug;
+		};
+		D264F2C81EFA731900868DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Zenyth AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.Zenyth-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Zenyth Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D264F2931EFA731900868DBD /* Build configuration list for PBXProject "Zenyth Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D264F2BE1EFA731900868DBD /* Debug */,
+				D264F2BF1EFA731900868DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D264F2C01EFA731900868DBD /* Build configuration list for PBXNativeTarget "Zenyth Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D264F2C11EFA731900868DBD /* Debug */,
+				D264F2C21EFA731900868DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D264F2C31EFA731900868DBD /* Build configuration list for PBXNativeTarget "Zenyth AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D264F2C41EFA731900868DBD /* Debug */,
+				D264F2C51EFA731900868DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D264F2C61EFA731900868DBD /* Build configuration list for PBXNativeTarget "Zenyth AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D264F2C71EFA731900868DBD /* Debug */,
+				D264F2C81EFA731900868DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D264F2901EFA731900868DBD /* Project object */;
+}
