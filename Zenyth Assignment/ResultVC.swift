@@ -11,11 +11,13 @@ import UIKit
 
 class ResultVC : UIViewController {
     
-    @IBOutlet var DateLabel: UILabel!
+    
+    @IBOutlet weak var DateLabel: UILabel!
     var Date = String()
     var backgroundColor = String()
     
-    @IBOutlet var TextLabel: UILabel!
+    @IBOutlet weak var TextLabel: UILabel!
+ 
     var Text = String()
     
     override func viewDidLoad() {
