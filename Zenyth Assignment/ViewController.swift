@@ -60,6 +60,11 @@ class ViewController: UIViewController {
     
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        
+        if (identifier == "MapVC") {
+            return true
+        }
+ 
         if ( ((!YellowSwitch.isOn && RedSwitch.isOn) || (YellowSwitch.isOn && !RedSwitch.isOn)) ) {
             if (!((InputText.text)?.isEmpty)!) {
                 WarningLabel.isHidden = true
@@ -83,8 +88,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+   
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    
+        
+        if ( segue.identifier == "ResultVC" ) {
+        
+        
+        
             let DestViewController : ResultVC = segue.destination as! ResultVC
             DestViewController.Text = InputText.text!
     
@@ -100,6 +110,8 @@ class ViewController: UIViewController {
             else if (YellowSwitch.isOn) {
                 DestViewController.backgroundColor = "Yellow"
             }
+        }
+        
     
         
         

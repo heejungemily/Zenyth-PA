@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC2E27C48F8C5BAF99724A81 /* libPods-Zenyth Assignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63557BD8707D9E092CF92957 /* libPods-Zenyth Assignment.a */; };
 		D264F29C1EFA731900868DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264F29B1EFA731900868DBD /* AppDelegate.swift */; };
 		D264F29E1EFA731900868DBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264F29D1EFA731900868DBD /* ViewController.swift */; };
 		D264F2A11EFA731900868DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D264F29F1EFA731900868DBD /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		D264F2B11EFA731900868DBD /* Zenyth_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264F2B01EFA731900868DBD /* Zenyth_AssignmentTests.swift */; };
 		D264F2BC1EFA731900868DBD /* Zenyth_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264F2BB1EFA731900868DBD /* Zenyth_AssignmentUITests.swift */; };
 		D264F2CA1EFA758B00868DBD /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264F2C91EFA758B00868DBD /* ResultVC.swift */; };
+		D2722B011EFB1C4400807E90 /* Screen Shot 2017-06-21 at 2.27.02 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D2722B001EFB1C4400807E90 /* Screen Shot 2017-06-21 at 2.27.02 PM.png */; };
+		D2722B051EFB5A6D00807E90 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D2722B041EFB5A6D00807E90 /* Podfile */; };
+		D2722B091EFB5DF200807E90 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2722B081EFB5DF200807E90 /* MapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07D47BF8EC088A2F4F9DB249 /* Pods-Zenyth Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zenyth Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zenyth Assignment/Pods-Zenyth Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		63557BD8707D9E092CF92957 /* libPods-Zenyth Assignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Zenyth Assignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBF196DCC29728C068D53F8 /* Pods-Zenyth Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zenyth Assignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zenyth Assignment/Pods-Zenyth Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		D264F2981EFA731900868DBD /* Zenyth Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zenyth Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D264F29B1EFA731900868DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D264F29D1EFA731900868DBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		D264F2BB1EFA731900868DBD /* Zenyth_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zenyth_AssignmentUITests.swift; sourceTree = "<group>"; };
 		D264F2BD1EFA731900868DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D264F2C91EFA758B00868DBD /* ResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		D2722B001EFB1C4400807E90 /* Screen Shot 2017-06-21 at 2.27.02 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-21 at 2.27.02 PM.png"; sourceTree = "<group>"; };
+		D2722B041EFB5A6D00807E90 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D2722B081EFB5DF200807E90 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2E27C48F8C5BAF99724A81 /* libPods-Zenyth Assignment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +87,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15CE99ABA235489F8923A0AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63557BD8707D9E092CF92957 /* libPods-Zenyth Assignment.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47980A3B9D0A29177C490E79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF196DCC29728C068D53F8 /* Pods-Zenyth Assignment.debug.xcconfig */,
+				07D47BF8EC088A2F4F9DB249 /* Pods-Zenyth Assignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D264F28F1EFA731900868DBD = {
 			isa = PBXGroup;
 			children = (
+				D2722B041EFB5A6D00807E90 /* Podfile */,
 				D264F29A1EFA731900868DBD /* Zenyth Assignment */,
 				D264F2AF1EFA731900868DBD /* Zenyth AssignmentTests */,
 				D264F2BA1EFA731900868DBD /* Zenyth AssignmentUITests */,
 				D264F2991EFA731900868DBD /* Products */,
+				47980A3B9D0A29177C490E79 /* Pods */,
+				15CE99ABA235489F8923A0AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +134,11 @@
 				D264F29D1EFA731900868DBD /* ViewController.swift */,
 				D264F29F1EFA731900868DBD /* Main.storyboard */,
 				D264F2C91EFA758B00868DBD /* ResultVC.swift */,
+				D2722B001EFB1C4400807E90 /* Screen Shot 2017-06-21 at 2.27.02 PM.png */,
 				D264F2A21EFA731900868DBD /* Assets.xcassets */,
 				D264F2A41EFA731900868DBD /* LaunchScreen.storyboard */,
 				D264F2A71EFA731900868DBD /* Info.plist */,
+				D2722B081EFB5DF200807E90 /* MapVC.swift */,
 			);
 			path = "Zenyth Assignment";
 			sourceTree = "<group>";
@@ -135,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D264F2C01EFA731900868DBD /* Build configuration list for PBXNativeTarget "Zenyth Assignment" */;
 			buildPhases = (
+				9BCF89D44F739A75729E3396 /* [CP] Check Pods Manifest.lock */,
 				D264F2941EFA731900868DBD /* Sources */,
 				D264F2951EFA731900868DBD /* Frameworks */,
 				D264F2961EFA731900868DBD /* Resources */,
+				9C9D1219018CF0B1051BD691 /* [CP] Embed Pods Frameworks */,
+				56DFC1D10F0EBF09A022D41D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,7 +271,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2722B051EFB5A6D00807E90 /* Podfile in Resources */,
 				D264F2A61EFA731900868DBD /* LaunchScreen.storyboard in Resources */,
+				D2722B011EFB1C4400807E90 /* Screen Shot 2017-06-21 at 2.27.02 PM.png in Resources */,
 				D264F2A31EFA731900868DBD /* Assets.xcassets in Resources */,
 				D264F2A11EFA731900868DBD /* Main.storyboard in Resources */,
 			);
@@ -257,12 +295,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56DFC1D10F0EBF09A022D41D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zenyth Assignment/Pods-Zenyth Assignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BCF89D44F739A75729E3396 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9D1219018CF0B1051BD691 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zenyth Assignment/Pods-Zenyth Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D264F2941EFA731900868DBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D264F29E1EFA731900868DBD /* ViewController.swift in Sources */,
+				D2722B091EFB5DF200807E90 /* MapVC.swift in Sources */,
 				D264F2CA1EFA758B00868DBD /* ResultVC.swift in Sources */,
 				D264F29C1EFA731900868DBD /* AppDelegate.swift in Sources */,
 			);
@@ -416,6 +503,7 @@
 		};
 		D264F2C11EFA731900868DBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBF196DCC29728C068D53F8 /* Pods-Zenyth Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Zenyth Assignment/Info.plist";
@@ -428,6 +516,7 @@
 		};
 		D264F2C21EFA731900868DBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D47BF8EC088A2F4F9DB249 /* Pods-Zenyth Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Zenyth Assignment/Info.plist";
@@ -511,6 +600,7 @@
 				D264F2C21EFA731900868DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D264F2C31EFA731900868DBD /* Build configuration list for PBXNativeTarget "Zenyth AssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +609,7 @@
 				D264F2C51EFA731900868DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D264F2C61EFA731900868DBD /* Build configuration list for PBXNativeTarget "Zenyth AssignmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +618,7 @@
 				D264F2C81EFA731900868DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
