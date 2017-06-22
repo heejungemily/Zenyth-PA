@@ -24,10 +24,10 @@ class ResultVC : UIViewController {
         TextLabel.text = Text
         DateLabel.text = Date
         if ( backgroundColor == "Red") {
-            self.view.backgroundColor = UIColor.red
+            self.view.backgroundColor = UIColor(red: 0.898, green: 0.2941, blue: 0.2941, alpha: 1.0)
         }
         else {
-            self.view.backgroundColor = UIColor.yellow
+            self.view.backgroundColor = UIColor(red: 0.9686, green: 0.9333, blue: 0.4627, alpha: 1.0)
         }
       
     }
