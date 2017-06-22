@@ -12,7 +12,7 @@
         <!--MapVC-->
         <scene sceneID="Ebm-hL-p0f">
             <objects>
-                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="wUb-6j-h45" customClass="MapVC" customModule="Zenyth_Assignment" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="wUb-6j-h45" customClass="MapVC" customModule="Zenyth_Assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zgv-5A-mQn"/>
                         <viewControllerLayoutGuide type="bottom" id="zyj-i4-CfR"/>
@@ -21,19 +21,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAC-d2-tW1">
-                                <rect key="frame" x="162" y="519" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Screen Shot 2017-06-21 at 2.27.02 PM.png"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tl9-7w-rE4">
+                                <rect key="frame" x="160" y="533" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="NEXT" image="Screen Shot 2017-06-21 at 2.27.02 PM.png">
+                                    <color key="titleColor" red="0.012629533678756522" green="0.0096482362307604604" blue="0.012567759734885409" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="U47-dC-48I"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="jRa-an-tzZ"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="Button" destination="cAC-d2-tW1" id="mOp-U0-YYy"/>
+                        <outlet property="nextButton" destination="tl9-7w-rE4" id="KDa-8F-A31"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IaT-Bu-bGE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -161,14 +163,14 @@
                                 <rect key="frame" x="44" y="132" width="266" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DateLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqw-it-FNX">
                                 <rect key="frame" x="29.5" y="207" width="315" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpO-TL-xQc">
@@ -199,6 +201,6 @@
         <image name="Screen Shot 2017-06-21 at 2.27.02 PM.png" width="1006" height="994"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="U47-dC-48I"/>
+        <segue reference="jRa-an-tzZ"/>
     </inferredMetricsTieBreakers>
 </document>

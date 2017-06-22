@@ -13,8 +13,24 @@ import GoogleMaps
 class MapVC: UIViewController {
     var mapView: GMSMapView?
     
+
+   
+    @IBOutlet weak var nextButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let camera = GMSCameraPosition.camera(withLatitude: 37, longitude: -122, zoom: 10)
+        mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        
+        //view.insertSubview(TestButton, at: 10)
+        view = mapView
+        view.insertSubview(nextButton, at: 1)
+        
+        
+        //view.insertSubview(Button, aboveSubview: mapView!)
+        
+        
+        //self.view.insertSubview(Button,  belowSubview: mapView!)
         //self.view.bringSubview(toFront: self.mapView!)
         //[mapView_ addSubview,:Button];
         
@@ -25,14 +41,17 @@ class MapVC: UIViewController {
         //naviationItem.right
     }
     
-    @IBOutlet var Button: UIButton!
-    
+ 
+    /*
     override func loadView() {
           // Create a GMSCameraPosition that tells the map to display the
          // coordinate -33.86,151.20 at zoom level 6.
          let camera = GMSCameraPosition.camera(withLatitude: 37, longitude: -122, zoom: 10)
         mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        
+        self.view.insertSubview(mapView!,  belowSubview: UIImageView)
          view = mapView
+     
         
     // Creates a marker in the center of the map.
         
@@ -42,7 +61,8 @@ class MapVC: UIViewController {
          // marker.snippet = "Australia"
          marker.map = mapView
  
-          }
+    }
+        */
     
     
 }
